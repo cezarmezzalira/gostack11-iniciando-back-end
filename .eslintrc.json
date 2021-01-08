@@ -38,7 +38,25 @@
       {
         "ts": "never"
       }
+    ],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      {
+        "prefixWithI": "always"
+      }
     ]
+    // "@typescript-eslint/naming-convention": [
+    //   "error",
+    //   {
+    //     "selector": "interface",
+    //     "prefix": [
+    //       "I"
+    //     ],
+    //     "format": [
+    //       "PascalCase"
+    //     ]
+    //   }
+    // ]
   },
   "settings": {
     "import/resolver": {
